@@ -1,0 +1,122 @@
+body{
+    font-family: 'century gothic', verdana, serif;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+   
+    background-color: #424560;
+}
+.ensemble:hover{
+    box-shadow: 5px 10px;
+    
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.groupe{
+    width: 100%;
+    height: 100%;
+    
+    font-size: 18px;
+}
+
+.ensemble{
+    width: 98%;
+    height: 700px;
+    background-color: #AAA;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    display: table;
+}
+
+
+.cotet{
+    width: 70%;
+    height: 590px;
+    
+    display: inline-block;
+}
+
+.cotet img{
+    width: 90%;
+    height: 100%;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.cotef{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    bottom: 300px;
+    display: inline-block;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 25px;
+    color: wheat;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.menu{
+    display: table;
+    margin: 0px auto;
+}
+
+nav li{
+    list-style-type: none;
+    float: left;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    border-top: 2px solid black;
+    padding-top: 20px;
+    background-color: #AAA;
+}
+
+.menu-exp:hover{
+    border-top: 4px solid rgb(7, 201, 7);
+    background-color: RGBa(13, 168, 36, 0.15);
+}
+
+.menu-pre:hover{
+    border-top: 4px solid blue;
+    background-color: RGBa(13, 36, 168, 0.15);
+}
+
+nav li:hover a{
+    padding: 8px 25px;
+}
+
+.sec::after, .cotegauche::after, .cotedroit::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer img{
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    padding-right: 6px;
+    border-radius: 45px;
+}
+
